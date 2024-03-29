@@ -1,7 +1,7 @@
 /**
  * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
  */
-import daisyui from 'daisyui'
+import daisyui from "daisyui";
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
