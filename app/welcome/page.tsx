@@ -23,7 +23,7 @@ export default function Page() {
                 ever forgot about this.
               </p>
             </div>
-            <button className="btn bg-gradient-to-r from-accent to-secondary text-center">
+            <button className="btn btn-secondary text-center">
               Get Started
             </button>
           </div>
