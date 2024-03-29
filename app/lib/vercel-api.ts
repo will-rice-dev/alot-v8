@@ -2,6 +2,7 @@
 
 import { sql } from "@vercel/postgres";
 import { Access } from "./types";
+import bcrypt from "bcrypt";
 
 export default async function signIn(
   username: string,
@@ -9,9 +10,9 @@ export default async function signIn(
 ): Promise<Access> {
   const { rows } = await sql`SELECT * from USERS where username=${username}`;
 
-  console.log(rows);
   if (rows[0]) {
-    if (rows[0].password === password) {
+    const match = await bcrypt.compare(password, rows[0].password);
+    if (match) {
       return Access.USER;
     }
     throw new Error("Incorrect password");
