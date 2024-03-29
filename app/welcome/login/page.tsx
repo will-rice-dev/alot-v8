@@ -1,19 +1,18 @@
-'use client'
+"use client";
 
 import { login } from "@/app/lib/actions";
 import { redirect } from "next/navigation";
-import { toast } from 'react-hot-toast';
+import { toast } from "react-hot-toast";
 
 export default function Page() {
-
-  const handleSubmint = async (formData:FormData) => {
+  const handleSubmint = async (formData: FormData) => {
     let response = await login(formData);
     if (response.authenticated) {
-      redirect("/")
+      redirect("/");
     } else {
-      toast.error(response.error)
+      toast.error(response.error);
     }
-  }
+  };
 
   return (
     <div className="hero min-h-screen bg-base-200">

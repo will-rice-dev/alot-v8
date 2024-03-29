@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="retro">
       <body className={inter.className}>
-      <Toaster position="bottom-center" />
+        <Toaster position="bottom-center" />
         {children}
-        </body>
+      </body>
     </html>
   );
 }

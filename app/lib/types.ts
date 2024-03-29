@@ -1,10 +1,10 @@
 export enum Access {
-    ADMIN,
-    USER,
-    GUEST,
+  ADMIN,
+  USER,
+  GUEST,
 }
 
 export interface LoginResponse {
-    authenticated: boolean,
-    error: string,
+  authenticated: boolean;
+  error: string;
 }
