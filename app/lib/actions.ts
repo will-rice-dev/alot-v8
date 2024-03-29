@@ -38,10 +38,10 @@ export async function login(formData: FormData): Promise<LoginResponse> {
 
   // Save the session in a cookie
   cookies().set("session", session, { expires, httpOnly: true, sameSite: "strict", secure: true});
-  return { authenticated: true }
+  return { authenticated: true , error: ""}
   } catch(e) {
     console.log(e);
-    return { authenticated: false, error: e?.toString() }
+    return { authenticated: false, error: e?.toString() || "Server error" }
   }
 }
 

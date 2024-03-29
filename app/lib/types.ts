@@ -6,5 +6,5 @@ export enum Access {
 
 export interface LoginResponse {
     authenticated: boolean,
-    error?: string,
+    error: string,
 }

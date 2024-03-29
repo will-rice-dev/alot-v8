@@ -2,6 +2,7 @@
 
 import { login } from "@/app/lib/actions";
 import { redirect } from "next/navigation";
+import { toast } from 'react-hot-toast';
 
 export default function Page() {
 
@@ -10,17 +11,7 @@ export default function Page() {
     if (response.authenticated) {
       redirect("/")
     } else {
-      console.log("hefooofesa")
-      return (
-        <div className="toast toast-center">
-  <div className="alert alert-info">
-    <span>New mail arrived.</span>
-  </div>
-  <div className="alert alert-success">
-    <span>Message sent successfully.</span>
-  </div>
-</div>
-      )
+      toast.error(response.error)
     }
   }
 
