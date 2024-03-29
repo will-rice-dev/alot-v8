@@ -7,7 +7,7 @@ export default function Page() {
             <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent">Hi there lover</h1>
             <div className="py-6 text-left">
               <p className="p-1">
-                This is an attempt at a handmade project. It's one that I've put
+                This is an attempt at a handmade project. It&apos;s one that I&apos;ve put
                 a fair amount of work into so I hope that you like it.
               </p>
               <p className="p-1">
