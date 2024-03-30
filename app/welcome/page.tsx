@@ -1,14 +1,17 @@
-export default function Page() {
+export default async function Page() {
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content">
           <div className="max-w-lg text-center">
-            <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent">Hi there lover</h1>
+            <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent">
+              Hi there lover
+            </h1>
             <div className="py-6 text-left">
               <p className="p-1">
-                This is an attempt at a handmade project. It&apos;s one that I&apos;ve put
-                a fair amount of work into so I hope that you like it.
+                This is an attempt at a handmade project. It&apos;s one that
+                I&apos;ve put a fair amount of work into so I hope that you like
+                it.
               </p>
               <p className="p-1">
                 I love you so freaking much. Like, a lot a lot.
@@ -23,9 +26,9 @@ export default function Page() {
                 ever forgot about this.
               </p>
             </div>
-            <button className="btn btn-secondary text-center">
+            <a className="btn btn-secondary text-center" href="/welcome/login">
               Get Started
-            </button>
+            </a>
           </div>
         </div>
       </div>
