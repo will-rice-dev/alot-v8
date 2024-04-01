@@ -4,7 +4,7 @@ export default async function Page() {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content">
           <div className="max-w-lg text-center">
-            <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-secondary to-accent">
+            <h1 className="animate-text bg-gradient-to-r from-accent via-secondary to-primary bg-clip-text text-transparent text-5xl font-black">
               Hi there lover
             </h1>
             <div className="py-6 text-left">
