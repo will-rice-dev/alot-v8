@@ -83,8 +83,10 @@ export default function Timeline() {
         </div>
         <div className="timeline-start md:text-end mb-10">
           <time className="font-mono italic">July 8, 2023</time>
-          <div className="text-lg font-black">Appendicitis</div>I have a feeling
-          that you remember this one pretty well.
+          <div>
+            <AboutPopup title="Appendicitis" images={[6]} />
+          </div>
+          I have a feeling that you remember this one pretty well.
         </div>
         <hr />
       </li>

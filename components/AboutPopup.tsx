@@ -6,10 +6,14 @@ export default function AboutPopup(props: AboutPopupParams) {
     <>
       <button
         className="btn btn-secondary text-accent-content btn-wide text-l"
-        onClick={() =>
-          (
-            document.getElementById(props.title) as HTMLDialogElement
-          ).showModal()
+        onClick={() =>{
+            const element = document.getElementById(props.title) as HTMLDialogElement
+          (element).showModal();
+          if (element) {
+            element.scrollTop = 0;
+            element.scrollTo(0,0)
+          }
+        }
         }
       >
         {props.title}
@@ -31,13 +35,10 @@ export default function AboutPopup(props: AboutPopupParams) {
               </div>
             ))}
           </div>
-          <div className="modal-action">
-            <form method="dialog">
-              {/* if there is a button in form, it will close the modal */}
-              <button className="btn">Close</button>
-            </form>
-          </div>
         </div>
+        <form method="dialog" className="modal-backdrop">
+    <button>close</button>
+  </form>
       </dialog>
     </>
   );
