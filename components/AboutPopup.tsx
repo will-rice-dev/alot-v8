@@ -6,7 +6,11 @@ export default function AboutPopup(props: AboutPopupParams) {
     <>
       <button
         className="btn btn-secondary text-accent-content btn-wide text-l"
-        onClick={() => document.getElementById(props.title)?.showModal()}
+        onClick={() =>
+          (
+            document.getElementById(props.title) as HTMLDialogElement
+          ).showModal()
+        }
       >
         {props.title}
       </button>
