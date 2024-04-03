@@ -1,5 +1,5 @@
-import Timeline from '@/components/Timeline';
-import React from 'react';
+import Timeline from "@/components/Timeline";
+import React from "react";
 
 const AboutPage = () => {
   return (
@@ -9,7 +9,8 @@ const AboutPage = () => {
           <section className="mb-8">
             <h1 className="text-2xl font-bold mb-4">About all of this</h1>
             <p className="text-base-content">
-              This may seem strange and it is. It is of course, but I thought it was a fun way to give this all to you.
+              This may seem strange and it is. It is of course, but I thought it
+              was a fun way to give this all to you.
             </p>
           </section>
           <section className="mb-8">
