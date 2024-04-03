@@ -23,7 +23,7 @@ export default function Timeline() {
         <div className="timeline-start md:text-end mb-10">
           <time className="font-mono italic">June 26, 2023</time>
           <div>
-            <AboutPopup title="Home Again" images={[1,2]} />
+            <AboutPopup title="Home Again" images={[1, 2]} />
           </div>
           We return from our fabulous honeymoon refreshed and ready to move. Of
           course, at the same time I had big plans of finally starting and
@@ -51,7 +51,7 @@ export default function Timeline() {
         <div className="timeline-end mb-10">
           <time className="font-mono italic">July 7, 2023</time>
           <div>
-            <AboutPopup title="Appendicitis Eve" images={[3,4,5]} />
+            <AboutPopup title="Appendicitis Eve" images={[3, 4, 5]} />
           </div>
           After an incredibly fast and busy two weeks, we are not far away from
           both our move and our anniversary. I had begun to run into some

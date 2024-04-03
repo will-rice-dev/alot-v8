@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import { AboutPopupParams } from "@/app/lib/types";
 
 export default function AboutPopup(props: AboutPopupParams) {
@@ -15,11 +15,17 @@ export default function AboutPopup(props: AboutPopupParams) {
         <div className="modal-box">
           <h3 className="font-bold text-lg">{props.title}</h3>
           <div>
-          {props.images?.map((image, index) => (
-        <div key={index}>
-          <Image src={"/static/IMG_" + image + ".JPG"} alt={`Image ${index + 1}`} width={500} height={300}  className="py-2"/>
-        </div>
-      ))}
+            {props.images?.map((image, index) => (
+              <div key={index}>
+                <Image
+                  src={"/static/IMG_" + image + ".JPG"}
+                  alt={`Image ${index + 1}`}
+                  width={500}
+                  height={300}
+                  className="py-2"
+                />
+              </div>
+            ))}
           </div>
           <div className="modal-action">
             <form method="dialog">
