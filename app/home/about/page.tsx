@@ -4,7 +4,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow py-12">
+      <main className="flex-grow py-12 px-2">
         <div className="container mx-auto">
           <section className="mb-8">
             <h1 className="text-2xl font-bold mb-4">About all of this</h1>
