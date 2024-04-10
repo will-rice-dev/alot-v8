@@ -10,7 +10,11 @@ const AboutPage = () => {
             <h1 className="text-2xl font-bold mb-4">About all of this</h1>
             <p className="text-base-content">
               This may seem strange and it is. It is of course, but I thought it
-              was a fun way to give this all to you.
+              was a fun way to give this all to you. ALSO: I started the
+              timeline well before I got your birthday card which included
+              something similar. I love you very much and I hope you enjoy this
+              despite its admittedly amateaur design (including a lack of
+              spellcheck 😬).
             </p>
           </section>
           <section className="mb-8">

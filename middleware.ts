@@ -13,7 +13,7 @@ export async function middleware(request: NextRequest) {
 
   if (request.nextUrl.pathname === "/welcome/login" && currentUser) {
     return Response.redirect(new URL("/home", request.url));
-  } 
+  }
 }
 
 export const config = {
