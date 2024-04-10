@@ -196,7 +196,7 @@ export default function Timeline() {
           </div>
           We embark on a crazy journey to both get medicated around the same
           time. While we both ended up just thrilled that we were able to get
-          the help we needed, it was a rough ride. I'm so glad that we did
+          the help we needed, it was a rough ride. I&apos;m so glad that we did
           toughed it out together, it has proven well worth it.
         </div>
         <hr />
@@ -256,12 +256,12 @@ export default function Timeline() {
               images={[19, 20, 21]}
             />
           </div>
-          You'd think we'd be due for a calm month by now and you'd be wrong.
-          While you're still in the midst of your first PhD semeseter, we throw
-          in a two little trips across the country for you. One is to show off
-          your academic prowess and the other is to keep my parents from losing
-          their minds. No rest for the weeary! (We also witness just an absolute
-          heartbreaker of an Iron Bowl)
+          You&apos;d think we&apos;d be due for a calm month by now and
+          you&apos;d be wrong. While you&apos;re still in the midst of your
+          first PhD semeseter, we throw in a two little trips across the country
+          for you. One is to show off your academic prowess and the other is to
+          keep my parents from losing their minds. No rest for the weeary! (We
+          also witness just an absolute heartbreaker of an Iron Bowl)
         </div>
         <hr />
       </li>
@@ -291,7 +291,7 @@ export default function Timeline() {
           </div>
           Another trip across the country! We made it a whole freaking year! I
           am so proud of us and so happy to be with you. Clearly we were tested
-          in our first year and I'd say that we pass.
+          in our first year and I&apos;d say that we pass.
         </div>
         <hr />
       </li>
@@ -316,10 +316,10 @@ export default function Timeline() {
           <div>
             <AboutPopup title="Luna!" images={[25, 26, 27, 28]} />
           </div>
-          Chill month time? Nope not for us, here comes Luna! I don't regret it
-          one bit. What a joy she is to have in our lives. (A real piece of work
-          sometimes but a joy nonetheless). Whittling down to a few cute pics of
-          her was truly a difficult task.
+          Chill month time? Nope not for us, here comes Luna! I don&apos;t
+          regret it one bit. What a joy she is to have in our lives. (A real
+          piece of work sometimes but a joy nonetheless). Whittling down to a
+          few cute pics of her was truly a difficult task.
         </div>
         <hr />
       </li>
