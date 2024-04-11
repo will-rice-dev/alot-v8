@@ -8,7 +8,7 @@ export default function Page() {
   const handleSubmint = async (formData: FormData) => {
     let response = await login(formData);
     if (response.authenticated) {
-      redirect("/");
+      redirect("/home");
     } else {
       toast.error(response.error);
     }
